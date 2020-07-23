@@ -1,0 +1,77 @@
+body {
+/*
+    display:flex;
+    flex-direction: column;
+*/
+}
+header {
+    height:35px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#560027;
+    color:white;
+}
+.fa-youtube{
+    color:red;
+    padding-left:10px;
+}
+.fa-search, .fa-ellipsis-v{
+    padding-right:10px;
+}
+.video-wrap {
+    position:relative;
+    width:100%;
+    padding-top:56.6%;
+}
+.video-wrap iframe {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#video_info #hashtag {
+    color:blue;
+}
+#video_info #video_name {
+    font-size:20px;
+    margin:5px 0px;
+}
+#video_info #date {
+    font-size:12px;
+    color:gray;
+}
+#video_info ul{
+    list-style: none;
+    padding-left:0;
+    display:flex;
+    justify-content: space-around;
+}
+#video_info ul li{
+    padding:10px;
+    text-align: center;
+}
+.logo_content{
+    margin:0;
+}
+#video_info #channel{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+}
+.channel_info {
+    display:flex;
+}
+.channel_info *{
+    margin:0
+}
+.channel_logo{
+    padding:10px;
+}
+.subscriber{
+    font-size:13px;
+    color:gray;
+}
